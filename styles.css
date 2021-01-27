@@ -1,0 +1,85 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.24);
+  	background-color: #43C6AC
+	font-family: sans-serif;
+}
+
+/* header */
+#header-nav{
+background-image: linear-gradient(to right, #135058, #43cea2);
+box-shadow: 0 10px 10px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.24);
+	border-radius: 1;
+	border: 1;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{   /* restaurant name (h1 follows navbar-header steps) */
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 2px 2px #222; /*shadow text*/
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: red;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-image: linear-gradient(to right, #135058, #43cea2);
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+/* button */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #FFF5D1;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* button ends here*/
+
+#section-tile{
+  height: 1100px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.24);
+  background: linear-gradient(to bottom left, #43C6AC, #191654);
+  overflow: hidden;
+}
+#section-tile p{
+  text-align: center;
+  font-weight: bold;
+  color: #A2104F;
+  font-size: 34px;
+}
+div > div > h1{
+	color: black;
+	font-weight: bold;
+	padding-bottom: 15px;
+	color: green;
+}
+
+@media (max-width: 767px) {
+
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.2em;
+	}
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+  font-size: 1em;
+  margin-right: 5px;
+	}
+}
