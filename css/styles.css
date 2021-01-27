@@ -63,6 +63,7 @@ box-shadow: 0 10px 10px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.24);
 #section-tile p{
   text-align: center;
   font-weight: bold;
+	background: linear-gradient(to bottom left, #43C6AC, #191654);
   color: #A2104F;
   font-size: 34px;
 }
@@ -70,7 +71,8 @@ div > div > h1{
 	color: black;
 	font-weight: bold;
 	padding-bottom: 15px;
-	color: green;
+	 background: linear-gradient(to bottom left, #43C6AC, #191654);
+	box-shadow: 0 10px 10px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.24);
 }
 
 @media (max-width: 767px) {
